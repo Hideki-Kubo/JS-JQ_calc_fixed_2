@@ -1,0 +1,68 @@
+.calculator {
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.result-display {
+    height: 100px;
+    background-color: #000;
+    color:#fff;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+}
+
+.button-container {
+    display: flex;
+}
+
+.buttonNumbers {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 300px;
+}
+
+.buttonNumbers div {
+    display: flex;
+    height: 98px;
+    width: 98px;
+    justify-content: center;
+    align-items: center;
+    background-color:#888;
+    color:#fff;
+    font-size: 40px;
+    border:solid 1px #000 ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttonSymbols {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100px;
+}
+
+.buttonSymbols div {
+    display: flex;
+    height: 98px;
+    width: 98px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3981d;
+    color:#fff;
+    font-size: 40px;
+    border:solid 1px #000 ;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* append css */
+
+.colorWhite {
+    color:#fff;
+}
+
+
